@@ -102,7 +102,7 @@ else:
         plt.plot(pL[0], pL[1])
         
 
-    plt. xlim(0, 600)
-    plt. ylim(0, 600)
+    plt. xlim(x0-r, x0+r)
+    plt. ylim(y0-r, y0+r)
     plt.show()
     
